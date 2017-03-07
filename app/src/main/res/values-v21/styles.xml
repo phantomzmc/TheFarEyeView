@@ -1,0 +1,44 @@
+<resources>
+
+        <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+        </style>
+        <style name="AppTheme.Base" parent="@android:style/Theme.Material.Light">
+            <item name="android:colorPrimary">@color/d_p_green</item>
+            <item name="android:colorPrimaryDark">@color/p_green</item>
+            <item name="android:textColorPrimary">@color/white</item>
+        </style>
+        <style name="AppTheme.News" parent="@android:style/Theme.Material.Light">
+            <item name="android:colorPrimary">@color/d_p_red</item>
+            <item name="android:colorPrimaryDark">@color/p_red</item>
+            <item name="android:textColorPrimary">@color/white</item>
+        </style>
+        <style name="AppTheme.Eat" parent="@android:style/Theme.Material.Light">
+            <item name="android:colorPrimary">@color/d_p_blue</item>
+            <item name="android:colorPrimaryDark">@color/p_blue</item>
+            <item name="android:textColorPrimary">@color/white</item>
+        </style>
+        <style name="AppTheme.Ex" parent="@android:style/Theme.Material.Light">
+            <item name="android:colorPrimary">@color/d_p_gre</item>
+            <item name="android:colorPrimaryDark">@color/p_gre</item>
+            <item name="android:textColorPrimary">@color/white</item>
+        </style>
+        <style name="AppTheme.Mon" parent="@android:style/Theme.Material.Light">
+            <item name="android:colorPrimary">@color/d_p_br</item>
+            <item name="android:colorPrimaryDark">@color/p_br</item>
+            <item name="android:textColorPrimary">@color/white</item>
+        </style>
+        <style name="AppTheme.Movie" parent="@android:style/Theme.Material.Light">
+            <item name="android:colorPrimary">@color/d_p_yelow</item>
+            <item name="android:colorPrimaryDark">@color/p_yelow</item>
+            <item name="android:textColorPrimary">@color/white</item>
+        </style>
+        <style name="AppTheme.pel" parent="@android:style/Theme.Material.Light">
+            <item name="android:colorPrimary">@color/d_p_pel</item>
+            <item name="android:colorPrimaryDark">@color/p_pel</item>
+            <item name="android:textColorPrimary">@color/white</item>
+        </style>
+    </resources>

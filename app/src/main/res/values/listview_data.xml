@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="my_image_array">
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+
+    </string-array>
+
+    <string-array name="my_string_array">
+        <item>Aerith Gainsborough</item>
+        <item>Barret Wallace</item>
+        <item>Cait Sith</item>
+        <item>Cid Highwind</item>
+        <item>Cloud Strife</item>
+        <item>Elena</item>
+        <item>Elfe</item>
+        <item>Fuhito</item>
+        <item>Gun</item>
+        <item>Heidegger</item>
+        <item>Katana</item>
+        <item>Knife</item>
+        <item>Martial Arts F</item>
+        <item>Martial Arts M</item>
+        <item>Nunchaku</item>
+        <item>President Shinra</item>
+        <item>Professor Hojo</item>
+        <item>Red XIII</item>
+        <item>Reeve Tuesti</item>
+        <item>Reno Sinclair</item>
+        <item>Rod</item>
+        <item>Rude</item>
+        <item>Rufus Shinra</item>
+        <item>Scarlet</item>
+        <item>Sears</item>
+        <item>Sephiroth</item>
+        <item>Shalva</item>
+        <item>Shotgun</item>
+        <item>Shuriken</item>
+        <item>Tifa Lockhart</item>
+        <item>Tseng</item>
+        <item>Two Guns</item>
+        <item>Verdot</item>
+        <item>Vincent Valentine</item>
+        <item>Yuffie Kisaragi</item>
+        <item>Zack Fair</item>
+    </string-array>
+    
+    <color name="blue">#32E0FF</color>
+    <color name="yellow">#FFE432</color>
+
+</resources>

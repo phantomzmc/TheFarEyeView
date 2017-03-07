@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thannathrnyuwasin.thefar">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appstelegram"
+        android:label="@string/name_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/name_app"
+            android:logo="@drawable/testlogo"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!--
+                  ATTENTION: This data URL was auto-generated. We recommend that you use the HTTP scheme.
+                  TODO: Change the host or pathPrefix as necessary.
+                -->
+                <data
+                    android:host="[ENTER-YOUR-HTTP-HOST-HERE]"
+                    android:pathPrefix="/main"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Spansreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tabbar_nokair"
+            android:label="Nokair"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Eat" />
+        <activity
+            android:name=".List1.MainActivityList"
+            android:label="อยุธยา" />
+        <activity
+            android:name=".List1.MainActivityList2"
+            android:label="สุโขทัย" />
+        <activity android:name=".List1.ShowDetailActivity" />
+        <activity
+            android:name=".Figth"
+            android:label="เที่ยวการบิน" />
+        <activity
+            android:name=".Tabbar_par"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Park.Park1"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Park.Park2"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Park.Park3"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Park.Park4"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <service android:name=".Service.MyService" />
+        <service android:name=".Service.MyService2" />
+
+    </application>
+
+</manifest>
